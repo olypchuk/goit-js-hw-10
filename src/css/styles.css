@@ -7,9 +7,11 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin-left: 30px;
 }
 
 #search-box {
@@ -17,4 +19,13 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+ul{
+  padding-inline-start: 0;
+}
+li{
+  list-style: none;
+}
+img{
+margin-right: 10px;
 }
